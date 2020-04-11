@@ -16,3 +16,31 @@
 .main-body > div {
 	padding: 10px;
 }
+
+.gallery {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.list {
+	padding-top: 20px;
+}
+
+.project { 
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.project__img {
+	float: left;
+}
+.project__text {
+	float: left;
+	padding: 10px;
+	display: grid;
+}
+.project__text > div {
+	padding-top: 10px;
+}
