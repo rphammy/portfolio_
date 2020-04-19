@@ -11,39 +11,85 @@
 	</div>
 
 	<div class="nav-bar">
-		<div class="tab">
-			<a href="index.html">Home</a>
-		</div>
-
-		<div class="tab">
-			<a href="projects.html">Projects</a>
-		</div>
-
-		<div class="tab">
-			<a href="gallery.html">Gallery</a>
-		</div>
-
-		<div class="tab">
-			<a href="contact.html">Contact</a>
-		</div>
-	</div>
+		<a href="index.html" class="tab">Home</a>
+		<a href="projects.html" class="tab">Project</a>
+		<a href="gallery.html" class="current_tab">Gallery</a>
+		<a href="contact.html" class="tab">Contact</a>
+	</div>	
 
 	<section class="gallery">
-		<img src="images/kelsey.png" width="400" height="300">
-		<img src="images/phamily.png" width="400" height="300">
-		<img src="images/lucas.png" width="300" height="400">
-		<img src="images/brooke.png" width="300" height="400">
-		<img src="images/sd_pride.png" width="400" height="300">
+		<a href="#kelsey">
+			<img src="images/kelsey.png" width="400" height="300">
+		</a>
+		<a href="#phamily">
+			<img src="images/phamily.png" width="400" height="300">
+		</a>
+		<a href="#lucas">
+			<img src="images/lucas.png" width="300" height="400">
+		</a>
+		<a href="#brooke">
+			<img src="images/brooke.png" width="300" height="400">
+		</a>
+		<a href="#sd">
+			<img src="images/sd_pride.png" width="400" height="300">
+		</a>
 
-		<img src="images/bagel.png" width="300" height="400">
-		<img src="images/marina.png" width="425" height="300">		
-		<img src="images/lax_jump.png" width="300" height="400">
-		<img src="images/cousins.png" width="400" height="300">
-		<img src="images/lax_arizona.png" width="400" height="300">
-		<img src="images/lax_banquet.png" width="475" height="300">
+		<a href="#bagel">
+			<img src="images/bagel.png" width="300" height="400">
+		</a>
+		<a href="#marina">
+			<img src="images/marina.png" width="425" height="300">		
+		</a>
+		<a href="#lax_jump">
+			<img src="images/lax_jump.png" width="300" height="400">
+		</a>
+		<a href="#cousins">
+			<img src="images/cousins.png" width="400" height="300">
+		</a>
+		<a href="#lax_arizona">
+			<img src="images/lax_arizona.png" width="400" height="300">
+		</a>
+		<a href="#lax_banquet">
+			<img src="images/lax_banquet.png" width="475" height="300">
+		</a>
 	</section>
 
+<!-- lightbox code -->
+<a href="#" class="lightbox" id="kelsey">
+  <img src="images/kelsey.png">
+</a>
+<a href="#" class="lightbox" id="phamily">
+  <img src="images/phamily.png">
+</a>
+<a href="#" class="lightbox" id="lucas">
+  <img src="images/lucas.png">
+</a>
+<a href="#" class="lightbox" id="brooke">
+  <img src="images/brooke.png">
+</a>
+<a href="#" class="lightbox" id="sd">
+  <img src="images/sd_pride.png">
+</a>
+<a href="#" class="lightbox" id="bagel">
+  <img src="images/bagel.png">
+</a>
+<a href="#" class="lightbox" id="marina">
+  <img src="images/marina.png">
+</a>
+<a href="#" class="lightbox" id="lax_jump">
+  <img src="images/lax_jump.png">
+</a>
+<a href="#" class="lightbox" id="cousins">
+  <img src="images/cousins.png">
+</a>
+<a href="#" class="lightbox" id="lax_arizona">
+  <img src="images/lax_arizona.png">
+</a>
+<a href="#" class="lightbox" id="lax_banquet">
+  <img src="images/lax_banquet.png">
+</a>
 
+<!-- Back to Top button-->
 	<button onclick="backToTop()" id="top" title="Go to top">Top</button>
 
 	<script>
@@ -67,6 +113,8 @@
 		  document.documentElement.scrollTop = 0;
 		}
 	</script>	
+
+
 
 </body>
 </html>

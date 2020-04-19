@@ -3,6 +3,13 @@
 <head>
 	<title>Rachel Pham Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="jquery.js"></script>
+	<script>
+		$(function(){
+     		$("#nav-bar").load("nav-bar.html"); 
+    	});
+	</script>
 </head>
 
 <body>
@@ -10,27 +17,17 @@
 		<h1>Welcome to my portfolio page!</h1>
 	</div>
 
+<!-- Navigation Bar -->
 	<div class="nav-bar">
-		<div class="tab">
-			<a href="index.html">Home</a>
-		</div>
-
-		<div class="tab">
-			<a href="projects.html">Projects</a>
-		</div>
-
-		<div class="tab">
-			<a href="gallery.html">Gallery</a>
-		</div>
-
-		<div class="tab">
-			<a href="contact.html">Contact</a>
-		</div>
-	</div>
+		<a href="index.html" class="current_tab">Home</a>
+		<a href="projects.html" class="tab">Project</a>
+		<a href="gallery.html" class="tab">Gallery</a>
+		<a href="contact.html" class="tab">Contact</a>
+	</div>	
 
 	<div class="main-body">
 		<div>
-			<img src="images/me.png" width="300" height="400">
+			<img src="images/me.png" width="375" height="500">
 		</div>
 		<div>
 			<h3>
