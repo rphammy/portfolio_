@@ -28,7 +28,7 @@
 		</div>
 	</div>
 
-	<div class="gallery">
+	<section class="gallery">
 		<img src="images/kelsey.png" width="400" height="300">
 		<img src="images/phamily.png" width="400" height="300">
 		<img src="images/lucas.png" width="300" height="400">
@@ -41,8 +41,32 @@
 		<img src="images/cousins.png" width="400" height="300">
 		<img src="images/lax_arizona.png" width="400" height="300">
 		<img src="images/lax_banquet.png" width="475" height="300">
-	</div>
+	</section>
 
+
+	<button onclick="backToTop()" id="top" title="Go to top">Top</button>
+
+	<script>
+	//Get the button
+		var mybutton = document.getElementById("top");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function backToTop() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>	
 
 </body>
 </html>
